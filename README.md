@@ -29,7 +29,7 @@ class MyCommand extends \PhpSlackBot\Command\BaseCommand {
 }
 
 $bot = new Bot();
-$bot->setToken('TOKEN'); // Get your token here https://my.slack.com/services/new/bot
+$bot->setToken('xoxb-3786587564754-4044675528195-0LK4NkLT3V0jaQBmB1U8pS9s'); // Get your token here https://my.slack.com/services/new/bot
 $bot->loadCommand(new MyCommand());
 $bot->loadInternalCommands(); // This loads example commands
 $bot->run();
@@ -99,7 +99,7 @@ class SuperCommand extends \PhpSlackBot\Command\BaseCommand {
 }
 
 $bot = new Bot();
-$bot->setToken('TOKEN'); // Get your token here https://my.slack.com/services/new/bot
+$bot->setToken('xoxb-3786587564754-4044675528195-0LK4NkLT3V0jaQBmB1U8pS9s'); // Get your token here https://my.slack.com/services/new/bot
 $bot->loadCatchAllCommand(new SuperCommand());
 $bot->run();
 ```
@@ -141,7 +141,7 @@ You can use active messaging this way:
 
 ```php
 $bot = new Bot();
-$bot->setToken('TOKEN'); // Get your token here https://my.slack.com/services/new/bot
+$bot->setToken('xoxb-3786587564754-4044675528195-0LK4NkLT3V0jaQBmB1U8pS9s'); // Get your token here https://my.slack.com/services/new/bot
 $bot->loadInternalCommands(); // This loads example commands
 $bot->loadPushNotifier(function () {
 	return [
