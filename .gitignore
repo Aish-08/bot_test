@@ -1,0 +1,5 @@
+*~
+.idea/
+bot.php
+composer.phar
+vendor
